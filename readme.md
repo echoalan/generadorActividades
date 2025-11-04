@@ -54,21 +54,23 @@ Ideal para docentes, creadores de contenido educativo y plataformas e-learning.
 
 ### Generar Actividad
 
-POST /api/actividades/generar
+**POST** `/api/actividades/generar`
 
-Body:
-    {
-      "tema": "Historia de Roma",
-      "tipo": "opcion-multiple",
-      "numPreguntas": 5,
-      "nivel": "secundario",
-      "dificultad": "media"
-    }
+**Body (JSON):**
+```json
+{
+  "tema": "Historia de Roma",
+  "tipo": "opcion-multiple",
+  "numPreguntas": 5,
+  "nivel": "secundario",
+  "dificultad": "media"
+}
 
-Respuesta:
-    {
-      "runId": "abc123"
-    }
+**Respuesta :**
+```json
+{
+    "runId": "abc123"
+}
 
 ### Obtener Resultado
 
