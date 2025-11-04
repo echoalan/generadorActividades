@@ -65,12 +65,14 @@ Ideal para docentes, creadores de contenido educativo y plataformas e-learning.
   "nivel": "secundario",
   "dificultad": "media"
 }
+```
 
 **Respuesta :**
 ```json
 {
     "runId": "abc123"
 }
+```
 
 ### Obtener Resultado
 
