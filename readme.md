@@ -41,8 +41,10 @@ Ideal para docentes, creadores de contenido educativo y plataformas e-learning.
    git clone https://github.com/echoalan/generadorActividades.git
    cd generadorActividades/saas-backend
 2. Instalar dependencias
+    ```bash
     npm install
 3. Crear un archivo .env en la raiz del backend con tu api key de AI21
+    ```bash
     AI21_API_KEY=tu_api_key_aqui
     PORT=5000
 
@@ -54,19 +56,18 @@ Ideal para docentes, creadores de contenido educativo y plataformas e-learning.
 
 POST /api/actividades/generar
 
-Body (JSON):
+Body:
     {
-    "tema": "Historia de Roma",
-    "tipo": "opcion-multiple",
-    "numPreguntas": 5,
-    "nivel": "secundario",
-    "dificultad": "media"
+      "tema": "Historia de Roma",
+      "tipo": "opcion-multiple",
+      "numPreguntas": 5,
+      "nivel": "secundario",
+      "dificultad": "media"
     }
 
 Respuesta:
-
     {
-    "runId": "abc123"
+      "runId": "abc123"
     }
 
 ### Obtener Resultado
