@@ -1,0 +1,10 @@
+:root {
+  --primary: #2563eb;
+  --muted: #6b7280;
+  --bg: linear-gradient(180deg, #f7fbff 0%, #eef6ff 100%);
+  --card-bg: #ffffff;
+  --accent: #10b981;
+  --radius: 12px;
+  --max-width: 960px;
+  --gap: 1rem;
+}
